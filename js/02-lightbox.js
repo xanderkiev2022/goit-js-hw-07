@@ -20,12 +20,12 @@ galleryEl.insertAdjacentHTML(                         // вставляємо м
 
   new SimpleLightbox(".gallery a", {                  // Всі налаштування пропонує бібліотека
     captionsData: "alt",
-    captionDelay: 300,
-    animationSpeed: 300,
+    captionDelay: 250,
+    animationSpeed: 250,
     overlay: true,
     close: true,
     showCounter: true,
-    fadeSpeed: 300,
+    fadeSpeed: 250,
     loop: false,
   });
 
